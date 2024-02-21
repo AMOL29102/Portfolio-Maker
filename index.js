@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 // GET home page
 app.get("/",  (req, res) => {
   
-  res.render("index2.ejs");
+  res.render("index.ejs");
 });
 
 // POST a new post
