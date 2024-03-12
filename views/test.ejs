@@ -1,0 +1,28 @@
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image</title>
+    <style>
+        .image{
+            background-image: url('./123.jpg');
+            /* height: 100px;
+            width: 200px; */
+            height: 200px;
+            z-index: 100;
+            background-size: cover;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h2>in test.ejs</h2>
+    <% const path = imagePath.slice(7); %>
+    <% console.log("This is the path : " + path); %>
+
+
+    <img src="<%= path %>" alt="not working" class="logo">
+   
+    
+</body>
+

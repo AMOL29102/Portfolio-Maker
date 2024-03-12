@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    
+<div class="body">
+    <h1>Add Your Changes Here</h1>
+    <!-- <form action="/submit_change" method="POST">
+        <div class="grp">
+            <input type="text" placeholder="Enter your new title" name="newTitle">
+            <label for="seller_id">New Title</label>
+        </div>
+        <div class="grp">
+            <input type="text" placeholder="Enter your Job title" name="jobTitle">
+            <label for="seller_city">Job Title</label>
+        </div>
+        
+        <button type="submit" class="btn">SUBMIT</button>
+    </form>
+    <form  action="/upload" method="post"  enctype="multipart/form-data">
+                        
+        <input type="file" name="newlogo" id="newlogo" accept="image/*">
+        <button type="submit">Submit</button>   
+
+    </form> -->
+
+
+    <form action="/submit_change" method="POST" enctype="multipart/form-data">
+        <div class="grp">
+            <input type="text" placeholder="Enter your new title" name="newTitle">
+            <label for="seller_id">New Title</label>
+        </div>
+        <div class="grp">
+            <input type="text" placeholder="Enter your Job title" name="jobTitle">
+            <label for="seller_city">Job Title</label>
+        </div>
+        <input type="file" name="newlogo" id="newlogo" accept="image/*">
+        <input type="file" name="newlogo" id="newlogo" accept="image/*" placeholder="2nd photo">
+
+        <button type="submit">SUBMIT</button>
+    </form>
+    
+</div>
+
+</body>
+</html>
